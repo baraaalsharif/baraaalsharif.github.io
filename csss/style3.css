@@ -1,0 +1,64 @@
+ul, ol {
+    margin-bottom: 24px;
+}
+    ul {
+        list-style: square outside;
+      }
+      
+  
+  
+  
+  ul ul,
+  ol ol {
+    margin: 0 0 0 60px;
+   }
+   #me {
+        float: right;
+        margin: 0 0 0 20px;
+        display: block;
+        width: 148px;
+        height: auto;
+        padding: 5px;
+        border: 1px solid #ccc;
+      
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -o-border-radius: 2px;
+        border-radius: 2px;
+      }
+ 
+html {
+    font-family: Cambria, Georgia, "Times New Roman", Times, serif;
+   
+    color: #333;
+    width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  body {
+    width: 460px;
+  margin: 0 auto;
+  line-height: 1.5em;
+  padding-top: 72px;
+  
+}
+
+  p {
+    margin-bottom: 24px;
+  }
+  .flex{ 
+    display: inline-block;
+   display: flex;
+  
+   
+}
+
+.flex > div {
+   background-color: #f1f1f1;
+   margin: 10px;
+   padding: 10px;
+   font-size: 15px;
+   margin-bottom: 30px;
+}
+
+   

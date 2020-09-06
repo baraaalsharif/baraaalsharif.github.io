@@ -1,0 +1,119 @@
+
+html {
+    font-family: Cambria, Georgia, "Times New Roman", Times, serif;
+   
+    color: #333;
+    width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  body {
+    width: 500px;
+  margin: 0 auto;
+  line-height: 1.5em;
+  padding-top: 72px;
+}
+    
+
+#wrap{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.left{
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+#npara{
+    
+    padding-bottom: 30px;
+    color: #333;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    
+}
+#text-para-title{
+    color: turquoise;
+    font-size: 50px;
+    font-family: calibri;
+    padding-top: 20px;
+}
+#text-para{
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.5px;
+}
+
+ol{
+    display: inline-flexbox;
+}
+
+#me {
+    float: right;
+    margin: 0 0 0 20px;
+    display: block;
+    width: 148px;
+    height: auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+#footer{
+  
+    padding-top: 0px;
+    position: unset;
+    margin-left: 300px;
+  
+    display: block;
+    width: 148px;
+    height: auto;
+    padding: 5px;
+    margin-top: 30px;
+   
+}
+
+#foto{
+    position: static;
+    float: left;
+    justify-content: right;
+    
+}
+
+.containr content{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.flex{ 
+     display: inline-block;
+    display: flex;
+    
+    
+}
+
+.flex > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    font-size: 15px;}
