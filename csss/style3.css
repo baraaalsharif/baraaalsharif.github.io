@@ -36,7 +36,7 @@ html {
     margin: 0 auto;
   }
   body {
-    width: 460px;
+    width: 500px;
   margin: 0 auto;
   line-height: 1.5em;
   padding-top: 72px;
@@ -61,4 +61,10 @@ html {
    margin-bottom: 30px;
 }
 
+.form{
+  text-align: center;
+}
    
+h5{
+  text-align: center;
+}
